@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #apt-get install python-autopep8
 find mar2 -name '*.py' > file.txt
 
