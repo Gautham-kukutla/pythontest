@@ -7,9 +7,9 @@ find mar2 -name *.py > file.txt
  done < file.txt
  git add .
  git diff --staged > file2.txt
- if [ grep -c ".py$" file2.txt -gt 0 ]
+ if [  grep -c ".py$" file2.txt ]
  then git commit -am "Commit done"
       git push "https://Gautham-kukutla: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@github.com/Gautham-kukutla/pythontest.git"
- else echo "no changegs done"
+ else echo "no changes done"
  fi
  
