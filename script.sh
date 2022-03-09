@@ -12,6 +12,6 @@ find mar2 -name '*.py' > file.txt
  else rm file.txt
      git add .
      git commit -am "Commit done"
-     git push "https://Gautham-kukutla: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@github.com/Gautham-kukutla/pythontest.git" 
+     git push "https://Gautham-kukutla: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@github.com/Gautham-kukutla/pythontest.git" 
  fi
  
